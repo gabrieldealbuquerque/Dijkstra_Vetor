@@ -38,7 +38,7 @@ int main(int argc, char* argv[])
     Grafo* grafo = processarArquivo(entrada);
 
     //Executando Dijkstra
-    dijkstra(grafo, retornaInicial(grafo), saida);
+    dijkstra(grafo, saida);
 
     destroiGrafo(grafo);
     fclose(entrada);
