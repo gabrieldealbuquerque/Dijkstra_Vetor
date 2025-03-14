@@ -248,7 +248,7 @@ int comparar_distancia(const void *a, const void *b)
     return (no_a->distancia > no_b->distancia) ? 1 : -1;
 }
 
-void dijkstra(Grafo *grafo, Node *inicial, FILE *saida)
+void dijkstra(Grafo *grafo, FILE *saida)
 {
     int qtd = retornaQtdNos(grafo);
     Node **nos = retornaNos(grafo);
