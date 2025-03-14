@@ -97,10 +97,9 @@ void construirCaminho(Grafo* grafo, Node* no, Node** nos, int* anterior, char** 
  * Calcula as distâncias mínimas a partir do nó inicial e imprime os resultados ordenados.
  * 
  * @param grafo Grafo no qual executar o algoritmo.
- * @param inicial Nó inicial para o cálculo dos caminhos.
  * @param saida Arquivo onde os resultados serão impressos.
  */
-void dijkstra(Grafo* grafo, Node* inicial, FILE* saida);
+void dijkstra(Grafo *grafo, FILE *saida);
 
 /**
  * @brief Define o nó inicial do grafo.
