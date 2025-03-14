@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "fib_heap.h"
 #include <float.h> // Para INFINITY
 
 struct tGrafo
